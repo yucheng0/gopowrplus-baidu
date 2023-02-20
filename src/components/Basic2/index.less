@@ -1,0 +1,204 @@
+:root{
+    // 定義預設的螢幕寬度
+  --w: 1920 ;
+  // --width: calc(var(--w) * 1px);
+  // --negative : calc(var(--w) * -1px);
+  --f: 54px;
+}
+
+:global {
+  .ant-picker-input > input {
+    color:white
+  }
+  
+  .ant-picker-range-separator  {
+    .anticon {
+      color:white
+    }
+  }
+
+  .ant-layout {
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    background-color: transparent;
+  }
+
+}
+
+@f:54px;
+
+
+.maincolor {
+    // color: #84bd00;
+    color: #84bd00;
+
+    // font-size: var(--f);
+}
+
+.maincolorwithframe {
+    border: 2px solid #84bd00;
+    // padding: 5px;
+    border-radius: 3px;
+
+}
+
+.bigfont {
+    font-size: 40px;
+}
+
+
+// body {
+//     background-color: green !important;
+//     color:green
+// }
+
+
+.body0 {
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // height: 100%;
+    // width: 100%;
+    // 引入背景圖
+    // background-image: url('@/assets/images/sa/background.png');
+    // background-image: url('@/assets/images/sa/startBackgroundNoLogo.png');
+    background-color: transparent;
+    background-position: 0 0 ; // 調整圖片的位置
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+    // background-size: cover;
+  //   -webkit-background-size: cover; /* 兼容Webkit内核浏览器如Chrome和Safari */
+  //   -o-background-size: cover; /* 兼容Opera */
+    color: white;
+    font-size: 20px;
+  }
+  
+  .body1 {
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // height: 100%;
+    // width: 100%;
+    // 引入背景圖
+    // background-image: url('@/assets/images/sa/background.png');
+    // background-image: url('@/assets/images/sa/startBackgroundNoLogo.png');    background-color: black;
+    background-color: transparent;
+    background-position: 0 -60px    ;  // 調整圖片的位置
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+    // background-size: cover;
+  //   -webkit-background-size: cover; /* 兼容Webkit内核浏览器如Chrome和Safari */
+  //   -o-background-size: cover; /* 兼容Opera */
+    color: white;
+    font-size: 20px;
+  }
+
+  .body2 {
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // height: 100%;
+    // width: 100%;
+    // 引入背景圖
+    // background-image: url('@/assets/images/sa/background.png');
+    // background-image: url('@/assets/images/sa/startBackgroundNoLogo.png');
+
+    background-color: transparent;
+    background-position: -480px -60px; // 調整圖片的位置
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+    // background-size: cover;
+  //   -webkit-background-size: cover; /* 兼容Webkit内核浏览器如Chrome和Safari */
+  //   -o-background-size: cover; /* 兼容Opera */
+    color: white;
+    font-size: 20px;
+  }
+
+  .body3 {
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // height: 100%;
+    // width: 100%;
+    // 引入背景圖
+    // background-image: url('@/assets/images/sa/background.png');
+    // background-image: url('@/assets/images/sa/startBackgroundNoLogo.png');
+    background-color: transparent;
+    background-position: 100% 9%; // 調整圖片的位置
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+    // background-size: cover;
+  //   -webkit-background-size: cover; /* 兼容Webkit内核浏览器如Chrome和Safari */
+  //   -o-background-size: cover; /* 兼容Opera */
+    color: white;
+    font-size: 20px;
+  }
+
+ // marquee
+.marquee {
+  // 注意這個高度很重要，要繼承父
+  height: 100%;
+  // line-height: 100%;
+  overflow: hidden;
+  position: relative;
+  // top:-9.8%;
+  // background: #fefefe;
+  background-color: transparent;
+// background-color: red;
+  // color: #333;
+  // color:'white';
+  // border: 1px solid red;
+  // font-size: 30px;
+  // opacity: 0.5;
+}
+
+.marquee p {
+  position: absolute;
+  // background-color: yellow;
+  width: var(--width);
+  height: 100%;
+  margin: 0;
+  // color: #000;
+  // left:0;
+  // top:0;
+  // line-height: 50px;
+  text-align: center;
+  // -moz-transform: translateX(100%);
+  // -webkit-transform: translateX(100%);
+  // transform: translateX(var(--width));
+    // -moz-animation: scroll-left 2s linear infinite;
+  // -webkit-animation: scroll-left 2s linear infinite;
+  animation: scroll-left 20s linear infinite;
+}
+@keyframes scroll-left {
+  0% {
+      // -moz-transform: translateX(100%);
+      // -webkit-transform: translateX(100%);
+      // transform: translateX(var(--width));
+      transform: translateX(calc(var(--w) * 1px));
+      // transform: translateX(1px);
+  }
+  
+  100% {
+      // -moz-transform: translateX(-100%);
+      // -webkit-transform: translateX(-100%);
+      // transform: translateX(@nw);
+      transform: translateX(calc(var(--w) * -1px));
+      // transform: translateX(1px);
+  }
+}
+
+
+
+// .ant-picker .ant-picker-input,
+// .ant-picker.ant-picker-range {
+//     display: flex;
+//     flex-direction: row-reverse;
+// }
+
+// .ant-picker .ant-picker-input span.ant-picker-suffix,
+// .ant-picker.ant-picker-range span.ant-picker-suffix {
+//     margin-left: 0;
+//     margin-right: 5px;
+// }

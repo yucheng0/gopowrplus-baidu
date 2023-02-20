@@ -1,0 +1,602 @@
+[
+  {
+    "hour": "0",
+    "value": 10,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "0",
+    "value": 54,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "0",
+    "value": 30,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "0",
+    "value": 40,
+    "category": "跑步機"
+  },
+  {
+    "hour": "0",
+    "value": 70,
+    "category": "三合一"
+  },
+  {
+    "hour": "1",
+    "value": 90,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "1",
+    "value": 154,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "1",
+    "value": 330,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "1",
+    "value": 20,
+    "category": "跑步機"
+  },
+  {
+    "hour": "1",
+    "value": 0,
+    "category": "三合一"
+  },
+  {
+    "hour": "2",
+    "value": 70,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "2",
+    "value": 157,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "2",
+    "value": 330,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "2",
+    "value": 110,
+    "category": "跑步機"
+  },
+  {
+    "hour": "2",
+    "value": 10,
+    "category": "三合一"
+  },
+  {
+    "hour": "3",
+    "value": 30,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "3",
+    "value": 259,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "3",
+    "value": 90,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "3",
+    "value": 80,
+    "category": "跑步機"
+  },
+  {
+    "hour": "3",
+    "value": 70,
+    "category": "三合一"
+  },
+  {
+    "hour": "4",
+    "value": 110,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "4",
+    "value": 169,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "4",
+    "value": 40,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "4",
+    "value": 70,
+    "category": "跑步機"
+  },
+  {
+    "hour": "4",
+    "value": 90,
+    "category": "三合一"
+  },
+  {
+    "hour": "5",
+    "value": 100,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "5",
+    "value": 171,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "5",
+    "value": 30,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "5",
+    "value": 40,
+    "category": "跑步機"
+  },
+  {
+    "hour": "5",
+    "value": 90,
+    "category": "三合一"
+  },
+  {
+    "hour": "6",
+    "value": 90,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "6",
+    "value": 76,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "6",
+    "value": 80,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "6",
+    "value": 40,
+    "category": "跑步機"
+  },
+  {
+    "hour": "6",
+    "value": 30,
+    "category": "三合一"
+  },
+  {
+    "hour": "7",
+    "value": 10,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "7",
+    "value": 77,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "7",
+    "value": 90,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "7",
+    "value": 40,
+    "category": "跑步機"
+  },
+  {
+    "hour": "7",
+    "value": 0,
+    "category": "三合一"
+  },
+  {
+    "hour": "8",
+    "value": 80,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "8",
+    "value": 178,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "8",
+    "value": 440,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "8",
+    "value": 330,
+    "category": "跑步機"
+  },
+  {
+    "hour": "8",
+    "value": 30,
+    "category": "三合一"
+  },
+  {
+    "hour": "9",
+    "value": 80,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "9",
+    "value": 83,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "9",
+    "value": 60,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "9",
+    "value": 10,
+    "category": "跑步機"
+  },
+  {
+    "hour": "9",
+    "value": 40,
+    "category": "三合一"
+  },
+  {
+    "hour": "10",
+    "value": 70,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "10",
+    "value": 391,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "10",
+    "value": 330,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "10",
+    "value": 70,
+    "category": "跑步機"
+  },
+  {
+    "hour": "10",
+    "value": 50,
+    "category": "三合一"
+  },
+  {
+    "hour": "11",
+    "value": 0,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "11",
+    "value": 95,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "11",
+    "value": 30,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "11",
+    "value": 80,
+    "category": "跑步機"
+  },
+  {
+    "hour": "11",
+    "value": 30,
+    "category": "三合一"
+  },
+  {
+    "hour": "12",
+    "value": 120,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "12",
+    "value": 96,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "12",
+    "value": 60,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "12",
+    "value": 90,
+    "category": "跑步機"
+  },
+  {
+    "hour": "12",
+    "value": 90,
+    "category": "三合一"
+  },
+  {
+    "hour": "13",
+    "value": 40,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "13",
+    "value": 103,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "13",
+    "value": 10,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "13",
+    "value": 100,
+    "category": "跑步機"
+  },
+  {
+    "hour": "13",
+    "value": 200,
+    "category": "三合一"
+  },
+  {
+    "hour": "14",
+    "value": 30,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "14",
+    "value": 112,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "14",
+    "value": 70,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "14",
+    "value": 80,
+    "category": "跑步機"
+  },
+  {
+    "hour": "14",
+    "value": 40,
+    "category": "三合一"
+  },
+  {
+    "hour": "15",
+    "value": 220,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "15",
+    "value": 119,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "15",
+    "value": 30,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "15",
+    "value": 0,
+    "category": "跑步機"
+  },
+  {
+    "hour": "15",
+    "value": 30,
+    "category": "三合一"
+  },
+  {
+    "hour": "16",
+    "value": 40,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "16",
+    "value": 122,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "16",
+    "value": 70,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "16",
+    "value": 60,
+    "category": "跑步機"
+  },
+  {
+    "hour": "16",
+    "value": 30,
+    "category": "三合一"
+  },
+  {
+    "hour": "17",
+    "value": 40,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "17",
+    "value": 130,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "17",
+    "value": 30,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "17",
+    "value": 100,
+    "category": "跑步機"
+  },
+  {
+    "hour": "17",
+    "value": 30,
+    "category": "三合一"
+  },
+  {
+    "hour": "18",
+    "value": 80,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "18",
+    "value": 134,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "18",
+    "value": 20,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "18",
+    "value": 10,
+    "category": "跑步機"
+  },
+  {
+    "hour": "18",
+    "value": 100,
+    "category": "三合一"
+  },
+  {
+    "hour": "19",
+    "value": 80,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "19",
+    "value": 142,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "19",
+    "value": 30,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "19",
+    "value": 100,
+    "category": "跑步機"
+  },
+  {
+    "hour": "19",
+    "value": 10,
+    "category": "三合一"
+  },
+  {
+    "hour": "20",
+    "value": 12,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "20",
+    "value": 146,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "20",
+    "value": 130,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "20",
+    "value": 230,
+    "category": "跑步機"
+  },
+  {
+    "hour": "20",
+    "value": 60,
+    "category": "三合一"
+  },
+  {
+    "hour": "21",
+    "value": 10,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "21",
+    "value": 156,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "21",
+    "value": 30,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "21",
+    "value": 40,
+    "category": "跑步機"
+  },
+  {
+    "hour": "21",
+    "value": 80,
+    "category": "三合一"
+  },
+  {
+    "hour": "22",
+    "value": 10,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "22",
+    "value": 173,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "22",
+    "value": 30,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "22",
+    "value": 90,
+    "category": "跑步機"
+  },
+  {
+    "hour": "22",
+    "value": 10,
+    "category": "三合一"
+  },
+  {
+    "hour": "23",
+    "value": 13,
+    "category": "綠能腳踏車"
+  },
+  {
+    "hour": "23",
+    "value": 183,
+    "category": "綠能橢圓機"
+  },
+  {
+    "hour": "23",
+    "value": 40,
+    "category": "綠能跑步機"
+  },
+  {
+    "hour": "23",
+    "value": 80,
+    "category": "跑步機"
+  },
+  {
+    "hour": "23",
+    "value": 10,
+    "category": "三合一"
+  }
+]

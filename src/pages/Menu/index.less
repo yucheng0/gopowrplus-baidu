@@ -1,0 +1,62 @@
+// 雲端引入
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap');
+
+// 本地引入
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: local('Proxima Nova Regular'),
+    url('@/assets/font/ProximaNova/ProximaNova-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Proxima Nova Regular', 'Martel Sans', -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  // 引入背景圖
+  background-image: url('@/assets/images/sa/background.png');
+  // background-color: black;
+  background-color: red;
+  background-position: 50% 50%; // 調整圖片的位置
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+//   -webkit-background-size: cover; /* 兼容Webkit内核浏览器如Chrome和Safari */
+//   -o-background-size: cover; /* 兼容Opera */
+  // color: white;
+  color : white;
+  font-size: 20px;
+}
+
+.body0 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    // 引入背景圖
+    background-image: url('@/assets/images/sa/background.png');
+    background-color: red;
+    // background-position: 50% 50%; // 調整圖片的位置
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  //   -webkit-background-size: cover; /* 兼容Webkit内核浏览器如Chrome和Safari */
+  //   -o-background-size: cover; /* 兼容Opera */
+    color: white;
+    font-size: 20px;
+  }
+  
+  // :global{
+  //   .ant-layout {
+  //       display: flex;
+  //       width: 100%;
+  //       min-height: 100%;
+  //       background-color: transparent;
+  //     }
+  //    }

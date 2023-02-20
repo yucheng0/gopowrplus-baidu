@@ -1,0 +1,17 @@
+
+ :root
+ {--d :300px;}
+ 
+.center{
+    text-align: center; 
+    line-height: 35px;
+    background-color:red;
+    width: var(--d);
+    height: 40px;
+   margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    }

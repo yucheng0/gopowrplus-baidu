@@ -1,0 +1,268 @@
+/* stylelint-disable property-no-vendor-prefix */
+// body:befor {
+//   content: "";
+//   display: block;
+//   position: absolute;
+//   background:
+//     url('@/assets/image/sa/sabg.jpg') no-repeat;
+// width:0;
+// height:0;
+// }
+
+// 雲端引入
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap');
+
+// 本地引入
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: local('Proxima Nova Regular'),
+    url('@/assets/font/ProximaNova/ProximaNova-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Proxima Nova Regular', 'Martel Sans', -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  // 多重背景圖
+  // background-image: url('@/assets/images/sa/loginBackground.jpg');
+  // background-image: url('@/assets/images/sa/startBackgroundNoLogo.png');
+  background-image: url('@/assets/images/sa/background.png');
+  background-color: black;
+  background-position: 50% 50%; // 調整圖片的位置
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover; /* 兼容Webkit内核浏览器如Chrome和Safari */
+  -o-background-size: cover; /* 兼容Opera */
+  // zoom: 1;
+  color: white;
+  font-size: 20px;
+}
+
+// 這個可以預載圖片
+
+// body::before {
+//   content: '';
+//   display: block;
+//   position: absolute;
+//   // background 可以多載圖片
+//   background: url('@/assets/images/sa/startBackgroundNoLogo.png'),
+//     url('@/assets/images/sa/background.png');
+//   width: 0;
+//   height: 0;
+// }
+
+
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-bottom: 1080px solid #84bd00;
+  border-left: 470px solid transparent;
+  border-right: 110px solid #84bd00;
+  // position: absolute;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.header {
+  color: white;
+  font-size: 20px;
+  transform: translateY(-5px);
+}
+
+.header:hover {
+  color: #84bd00;
+}
+
+.header:active {
+  color: #84bd00;
+}
+
+.header:focus {
+  color: #84bd00;
+}
+
+.doubleslash {
+  color: #84bd00;
+  font-size: 20px;
+  //  transform:translateY(5px)
+}
+
+.abc {
+  color: #84bd00;
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+.abc span {
+  color: #84bd00;
+  // font-size: 20px;
+  opacity: 1;
+}
+
+.shape {
+  font-size: 20px;
+}
+
+.shape::before {
+  content: 'xxx'; //決定寬度
+  // width:10px;
+  height: 10px;
+  background-color: yellow;
+  color: yellow;
+  border-radius: 50%;
+}
+
+.inset {
+  // animation: inset ;
+  animation-name: inset;
+  animation-delay: 0.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  // animation-play-state: paused;
+  // animation-timing-function: ease-in;
+  // background: orange;
+  // 動畫完成後的最後結果
+  // clip-path: inset(0% 0% 0% 0%);
+  // height: 200px;
+  // width: 200px;
+}
+
+@keyframes inset {
+  from {
+    clip-path: inset(50% 0% 50% 0%);
+  }
+
+  to {
+    clip-path: inset(0% 0% 0% 0%);
+  }
+}
+// @keyframes inset {
+// 0% { clip-path: inset(50% 0% 50% 0%) }
+// 12.5% { clip-path: inset(43.75% 0% 43.75% 0%)   }
+// 25% { clip-path: inset(37.5% 0% 37.5% 0%) }
+// 50% { clip-path: inset(25% 0% 25% 0%) }
+// 75%  { clip-path: inset(12.5% 0% 12.5% 0%) }
+// 87.5% { clip-path: inset(6.25% 0% 6.25% 0%) }
+// 100% { clip-path: inset(0% 0% 0% 0%) }
+
+// }
+
+.uphrmove {
+  // animation: inset ;
+  animation-name: uphrmove;
+  animation-delay: 0.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  // animation-play-state: paused;
+  // animation-timing-function: ease-in;
+  // background: orange;
+  // 動畫完成後的最後結果
+  // clip-path: inset(0% 0% 0% 0%);
+  // height: 200px;
+  // width: 200px;
+}
+
+@keyframes uphrmove {
+  // @ 可以引入變數?
+  // 動畫來時先降100px 再上升
+  from {
+    transform: translateY(100px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+.uphrmove1 {
+  // animation: inset ;
+  animation-name: uphrmove1;
+  animation-delay: 0.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  // animation-play-state: paused;
+  // animation-timing-function: ease-in;
+  // background: orange;
+  // 動畫完成後的最後結果
+  // clip-path: inset(0% 0% 0% 0%);
+  // height: 200px;
+  // width: 200px;
+}
+
+@keyframes uphrmove1 {
+  // @ 可以引入變數?
+  // 動畫來時先降100px 再上升
+  from {
+    transform: translateY(100px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+.dnhrmove {
+  // animation: inset ;
+  animation-name: dnhrmove;
+  animation-delay: 0.5s; //0.1s
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  // animation-play-state: paused;
+  // animation-play-state:running;
+  // animation-timing-function: ease-in;
+  // background: orange;
+  // 動畫完成後的最後結果
+  // clip-path: inset(0% 0% 0% 0%);
+  // height: 200px;
+  // width: 200px;
+}
+
+// 下面那條線
+@keyframes dnhrmove {
+  // @ 可以引入變數?
+  from {
+    transform: translateY(-182px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+.changebgcolor {
+  // background-color: red;
+  background-image: url('@/assets/images/sa/background.png');
+}
+
+// // 更改antd 的表格底色
+// .ant-table-tbody > tr > td {
+//   // background: rgba(255,255,255,255) !important; 
+//   // border: 0 solid red;  
+// }
+
+// // // 去除滑鼠在上面的顏色變化
+// // .ant-table-tbody > tr >td:hover{
+// //   background: rgb(0,255,255) !important;
+// // }
+
+
+// .ant-table-thead > tr >th{
+//   padding: 10px 24px !important;
+// }
+
+// .ant-table-tbody > tr >td:not(:last-child) {
+//   border-right: 0 !important;
+// }
+
+// .ant-table-thead > tr >th:not(:last-child) {
+//   border-right: 0 !important;
+// }

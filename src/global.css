@@ -1,0 +1,27 @@
+/* 注意註解/* */的標法 
+antd 有兩層background 的css , 這是最上層,
+不是只做這一層就可以, 它仍有一層要做透明才能真正地看到背景
+這一層要在自己的css 內做, 就不再全局做了
+*/
+
+/* 只有!important 才能覆蓋其它的 */
+.ant-layout {
+    display: flex !important;
+    width: 100% !important;
+    min-height: 100% !important;
+    background-color: transparent !important;
+  }
+
+  /* ==== 底下是針對表格的部分的css === */
+thead > tr > th {
+    background-color: transparent !important;
+
+    /*  header 的下面那一條  */
+    border: 0 solid transparent !important;
+  }
+
+
+.ant-table {
+    background-color: transparent !important;
+    border: 0 solid transparent !important;
+}
